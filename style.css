@@ -1,0 +1,352 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    background: linear-gradient(135deg, #FFFFFF, #FFDDEB);
+    color: black;
+    text-align: center;
+}
+/* Container */
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 0px 0;
+}
+
+/* Header & Navbar */
+#header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(212, 206, 206, 0.3);
+
+}
+
+#header h1 {
+    display: inline-block;
+    font-size: 26px;
+    color:  #ffdf6c;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
+    padding-left: 50px;
+}
+
+nav {
+    float: right;
+    padding-right: 70px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.3s ease;
+    
+}
+
+nav ul li a:hover {
+    color: #f5deb3;
+}
+
+#box {
+    background-color: #0d0d0d;
+    min-height: 65px;
+    
+}
+/* Hero Section */
+#aboutme {
+    width:100%;
+    min-height:400px;
+    background: linear-gradient(135deg, #FFFFFF, #FADADD);
+    color: #fff;
+    display: flex;
+    border-radius: 10px;
+}
+
+.inner {
+
+    width:80%;
+    min-height:400px;
+    margin:auto;
+}
+
+#img {
+    width:25%;
+    min-height:50px;
+    float:left;
+    padding-top: 20px;
+}
+
+#img img {
+    max-width: 250px;
+    float:left;
+    min-height:50px;
+    margin-bottom:50px; 
+    border-radius: 50%;
+    margin:auto;
+    display:block;
+    object-fit: cover;
+    border: 5px solid rosybrown;
+}
+
+#bio {
+    width:75%;
+	min-height:50px;
+	float:right;
+	padding-top: 100px;
+}
+
+#bio h2{
+    padding-top: 10%;
+    margin-bottom:50px;
+    color: #f1600b;
+    font-weight: bold;
+}
+#bio h3 {
+    padding-left: 10%;
+	margin-bottom:50px;
+}
+
+#bio a.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    margin-top: 1px;
+    background: white;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    
+}
+
+#bio a.btn:hover {
+    background: burlywood;
+    color: #fff;
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: brown;
+}
+
+.section :hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+/* About */
+.theabout {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: 15px auto;
+    width: 70%;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    text-align:justify;
+	font-size:20px;
+}
+
+.theabout:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.theabout a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+
+.theabout a:hover {
+   color: #f39c12;
+}
+#about h4{
+    font-family:Arial, sans-serif;
+    font-size: 200%;
+    font-style: none;
+    color: brown;
+}
+
+/* Projects */
+.qualification {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: 15px auto;
+    width: 70%;
+    border-radius: 10px;
+    
+}
+
+.qualification:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+#qualification h2 {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+
+.qualification h2:hover {
+    color: #f39c12;
+}
+
+/* Skills */
+.skills-list {
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: 15px auto;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.skills-list p {
+    background: linear-gradient(45deg, #FF5733, #FF9800);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+}
+
+#skills h2{
+    font-style: none;
+    color: brown;
+}
+
+.skills-list:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Internship */
+.internship-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: 15px auto;
+    width: 70%;
+    border-radius: 10px;
+}
+
+
+.internship-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.internship-cards {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: 15px auto;
+    width: 70%;
+    border-radius: 10px;
+}
+
+
+.internship-cards:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Certificates */
+.certificate {
+    list-style: none;
+    padding: 0;
+}
+
+#certificate p {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 12px;
+    margin: 5px auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.certificate p:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Contact */
+#contact {
+    text-align: center;
+    padding: 50px 0;
+    background: #FADADD
+}
+
+#contact p {
+    margin: auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#contact p a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    width: 60%;
+    margin: auto;
+}
+
+#contact p a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    
+}
+
+
